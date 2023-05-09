@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const HollbookingSchema = new mongoose.Schema({
+const HallbookingSchema = new mongoose.Schema({
     noofSeats : {type : String,required: false},
     amenities : {type : String,required: true},
     price : {type : String,required: true},
@@ -14,5 +14,5 @@ const HollbookingSchema = new mongoose.Schema({
 
 })
 
-const HollBook = mongoose.model(('halls'),HollbookingSchema);
-module.exports = HollBook;
+const HallBook = mongoose.model(('halls'),HallbookingSchema);
+module.exports = HallBook;
